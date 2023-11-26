@@ -175,7 +175,7 @@ while True:
         
             # Aggiornamento punteggio
             pen.clear()
-            pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Calibri", 24, "normal"))
+            pen.write("Punti: {}  Punteggio Massimo: {}".format(score, high_score), align="center", font=("Calibri", 24, "normal"))
 
     time.sleep(delay)
 
